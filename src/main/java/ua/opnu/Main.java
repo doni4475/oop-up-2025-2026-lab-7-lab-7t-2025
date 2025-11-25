@@ -6,7 +6,7 @@ import java.util.function.*;
 public class Main {
 
     // =========================
-    // Завдання 1 — предикат простого числа
+    // Завдання 1 — ппредикат простого числа
     // =========================
     public static Predicate<Integer> isPrime = n -> {
         if (n < 2) return false;
